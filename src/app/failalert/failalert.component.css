@@ -1,0 +1,31 @@
+.fail-alert {
+    background-color: #f2b0a6;
+    display: flex;
+    max-width: 400px;
+    border: solid 2px red;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 8px;
+    margin: 0 0 20px;
+}
+
+.X-sign{
+    background-color: red;
+    border-radius: 50%;
+    flex: 0 0 20px;
+    text-align: center;
+    color: white;
+    font-weight: 1000;
+}
+
+.left-fail{
+    flex: 0 1 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fail-message {
+    flex: 1 1 100px;
+    overflow-wrap: break-word;
+}
