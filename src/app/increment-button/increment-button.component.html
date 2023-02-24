@@ -1,0 +1,14 @@
+<button
+  class="btn btn-primary"
+  [textContent]="getDisplayText()"
+  (click)="onButtonClick()"
+></button>
+<p *ngIf="paragraphDisplayed">Bleb 👅</p>
+<hr />
+<p
+  *ngFor="let k of toggleArray; let i = index"
+  [ngStyle]="{ 'background-color': i > 3? 'dodgerblue':'white' }"
+  [ngClass]="{styled: i > 3}"
+>
+  {{ k }}
+</p>
